@@ -1,0 +1,6 @@
+camunda:
+  region: cluster-region
+  # please be aware that the cluster will not be over port 26500 but instead of 443 (https)
+  gatewayAddress: [clusterID].[cluster-region].zeebe.camunda.io:443
+  clientId: your client id
+  clientSecret: your client secret
